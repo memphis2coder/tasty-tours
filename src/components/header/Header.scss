@@ -1,0 +1,42 @@
+$black: #333;
+$white: #ffffff;
+
+.header {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    .row {
+        height: 100px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo {
+        z-index: 10;
+        mix-blend-mode: difference;
+    }
+    .logo a{
+            text-decoration: none;
+            color: $black;
+            font-weight: 700;
+            letter-spacing: 4px;
+            font-size: 20px;
+            font-family: 'Manrope', sans-serif;
+            
+    }
+    .icon {
+        z-index: 10;
+        mix-blend-mode: difference;
+        button {
+            background: none;
+            border: none;
+            color: $black;
+            font-size: 20px;
+            cursor: pointer;
+            transition: .5s ease-in-out;
+            outline: none;
+        }
+    }
+}
+
+
+
